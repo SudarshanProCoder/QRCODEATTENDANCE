@@ -9,7 +9,7 @@ import db as cr
 class login_page:
     def __init__(self, root):
         self.window = root
-        self.window.title("Log In PySeek")
+        self.window.title("Log In ")
         
         self.window.geometry("1280x800+0+0")
         self.window.config(bg = "white")
