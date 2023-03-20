@@ -14,12 +14,12 @@ class login_page:
         self.window.geometry("1280x800+0+0")
         self.window.config(bg = "white")
 
-        self.frame1 = Frame(self.window, bg="yellow")
+        self.frame1 = Frame(self.window, bg="#FF6A3D")
         self.frame1.place(x=0, y=0, width=450, relheight = 1)
 
        # label1 = Label(self.frame1, text= "By", font=("times new roman", 40, "bold"), bg="yellow", fg="red").place(x=100,y=300)
-        label2 = Label(self.frame1, text= "Developed By", font=("times new roman", 40, "bold"), bg="yellow", fg="RoyalBlue1").place(x=100,y=300)
-        label3 = Label(self.frame1, text= "Sudarshan Coder", font=("times new roman", 13, "bold"), bg="yellow", fg="brown4").place(x=100,y=360)
+        label2 = Label(self.frame1, text= "Developed By", font=("times new roman", 40, "bold"), bg="#FF6A3D", fg="#3B38FF").place(x=100,y=300)
+        label3 = Label(self.frame1, text= "Sudarshan Coder", font=("times new roman", 15, "italic"), bg="#FF6A3D", fg="#0803FF").place(x=100,y=360)
 
         self.frame2 = Frame(self.window, bg = "gray95")
         self.frame2.place(x=450,y=0,relwidth=1, relheight=1)
